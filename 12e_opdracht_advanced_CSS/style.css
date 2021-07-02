@@ -1,0 +1,47 @@
+body {
+    background-color: lightgray;
+}
+
+div a:hover {
+    color: lightblue;
+}
+
+div a:active {
+    color: red;
+    font-style: italic;
+}
+
+div a:visited {
+    color: yellow;
+}
+
+div p:focus {
+    color: green;
+    font-size: 20px;
+}
+
+ul {
+    background-color: darkblue;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.currentpage {
+    background-color: darkgray;
+}
+
+ul:first-child {
+    padding: 0;
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+#search:focus {
+    border: 5px solid aqua;
+}
